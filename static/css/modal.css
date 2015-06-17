@@ -1,0 +1,62 @@
+body{
+    font-family: 'Julius Sans One', sans-serif;
+}
+button{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.showModal{
+    font-size: 1.5em;
+    font-weight: 300;
+    background: #4f9a3d;
+    padding: 1em;
+    color: #fff;
+    border: 1px solid #4f9a3d;
+    width: 200px;
+    margin: 1em auto;
+}
+
+#modal{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    display: none;
+    width: 40%;
+    position: fixed;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.4);
+    top: 110%;
+    left: 30%;
+    padding: 1em;
+}
+#modal .modal-header{
+    padding: o.5em 0;
+    font-size: 2em;
+    font-weight: 500;
+    color: #3e9cbd;
+    border-bottom: 1px solid #3e9cbd;
+}
+
+#modal .modal-content{
+    padding: 2em 0;
+    font-size: 1em;
+    font-weight: 300;
+}
+#modal .head-close span{
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+#modal .modal-btn{
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 0.8em;
+}
+#modal .ok-btn{
+    background: #9cbd3e;
+    color: #fff;
+    border: 1px solid #4f9a3d; 
+}
+#modal .cancel-btn{
+    background: #d28e76;
+    color: #fff;
+    border: 1px solid #d28e76; 
+}

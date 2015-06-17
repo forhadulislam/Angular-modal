@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="modalApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular Modal</title>
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,100italic,300italic,400italic|Source+Sans+Pro:200,300,400,200italic,300italic,400italic|Julius+Sans+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/angular-modal/static/css/modal.css" />
+
+        <script src="/angular-modal/static/js/angular.min.js"></script>
+        <script src="/angular-modal/static/js/jquery.min.js"></script>
+        <script src="/angular-modal/static/js/modal.js"></script>
+    </head>
+    <body ng-controller="ModalController">
+        
+        <div>
+            <button class="showModal" ng-click="showModal()">Show Modal</button>
+        </div>
+        
+        <div id="modal">
+            <div class="head-close"><span ng-click="hideModal()">X</span></div>
+            <div class="modal-header">Message</div>
+            <div class="modal-content">
+                The hair follicles are still present). 
+                Alopeaia areata is this type, which is an autoimmune process but the cause is unknown. 
+                Since the hair follicles still exist, 
+                it is often reversible. It However, it can develop into the scarring type.
+            </div>
+            <div class="modal-footer">
+                <button class="ok-btn modal-btn" ng-click="hideModal()">OK</button>
+                <button class="cancel-btn modal-btn" ng-click="hideModal()">Cancel</button>
+            </div> 
+        </div>
+        
+    </body>
+</html> 
